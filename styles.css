@@ -281,3 +281,32 @@ p{
     width:70px !important;
     height:70px !important;
 }
+
+
+.ml img{
+    width: 80px !important;
+    height: 50px !important;
+    object-fit: contain;
+    aspect-ratio: 1 / 1;
+    min-height:80px !important;
+}
+.ml h3{
+    display:inline;
+    width:90px;
+    margin:0px auto;
+}
+
+.ml{
+    display:flex;
+    flex-direction:column;
+    align-content:center;
+    justify-content:center;
+}
+
+.project{
+    margin:50px auto;
+}
+.project h3,.project p{
+    margin:10px auto;
+    padding:0px;
+}
